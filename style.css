@@ -122,6 +122,8 @@ nav .fa-bars {
 }
 .courses div img {
   width: 100%;
+  height: 100px;
+  object-fit: cover;
   border-radius: 10px;
 }
 .courses div {
@@ -145,6 +147,8 @@ nav .fa-bars {
 }
 .teachers div img {
   width: 100%;
+  height: 200px;
+  object-fit: cover;
   border-radius: 10px;
 }
 .teachers h3 {
