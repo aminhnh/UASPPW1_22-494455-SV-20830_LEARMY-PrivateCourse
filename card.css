@@ -1,0 +1,77 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a .card {
+  transition-duration: 0.1s;
+  transition-property: box-shadow transform;
+  color: #000;
+}
+a .card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  color: #000;
+  transform: scale(1.01);
+  /* outline: 2px solid rgb(0, 132, 255); */
+}
+/* .card-img-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+} */
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  position: relative;
+}
+.fa-heart {
+  cursor: pointer;
+  font-size: 2.5vw;
+  position: absolute;
+  z-index: 10;
+  top: 0.2vw;
+  right: 1.5vw;
+}
+.fa-heart:hover {
+  cursor: pointer;
+  color: #e43081;
+}
+.fa-heart.fa-solid {
+  cursor: pointer;
+  color: #e43081;
+}
+.fa-star {
+  color: orange;
+}
+.logo {
+  width: 140px;
+  cursor: pointer;
+}
+/* .fa-solid.fa-xmark {
+  width: 24px;
+  height: 24px;
+} */
+.icon {
+  height: 1px;
+  width: auto;
+}
+.badge.d-flex {
+  color: inherit;
+}
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+.d-flex div {
+  outline: 1px solid red;
+}
